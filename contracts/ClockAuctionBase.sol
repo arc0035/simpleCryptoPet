@@ -47,7 +47,7 @@ contract ClockAuctionBase {
 
         tokenIdToAuction[_tokenId] = _auction;
 
-        AuctionCreated(_tokenId, _auction.startingPrice, _auction.endingPrice, _auction.duration);
+        emit AuctionCreated(_tokenId, _auction.startingPrice, _auction.endingPrice, _auction.duration);
     }
 
 

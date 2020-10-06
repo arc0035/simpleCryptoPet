@@ -40,14 +40,14 @@
     "absolutePath": "/D/github/mason/simpleCryptoPet/contracts/GeneScienceInterface.sol",
     "exportedSymbols": {
       "GeneScienceInterface": [
-        1002
+        1309
       ]
     },
-    "id": 1003,
+    "id": 1310,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 990,
+        "id": 1297,
         "literals": [
           "solidity",
           ">=",
@@ -58,7 +58,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:32:4"
+        "src": "32:32:5"
       },
       {
         "baseContracts": [],
@@ -66,9 +66,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 1002,
+        "id": 1309,
         "linearizedBaseContracts": [
-          1002
+          1309
         ],
         "name": "GeneScienceInterface",
         "nodeType": "ContractDefinition",
@@ -76,7 +76,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 1001,
+            "id": 1308,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -84,16 +84,16 @@
             "name": "mixGenes",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 997,
+              "id": 1304,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 992,
+                  "id": 1299,
                   "name": "genes1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1001,
-                  "src": "121:14:4",
+                  "scope": 1308,
+                  "src": "121:14:5",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -101,10 +101,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 991,
+                    "id": 1298,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "121:7:4",
+                    "src": "121:7:5",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -115,11 +115,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 994,
+                  "id": 1301,
                   "name": "genes2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1001,
-                  "src": "137:14:4",
+                  "scope": 1308,
+                  "src": "137:14:5",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -127,10 +127,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 993,
+                    "id": 1300,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "137:7:4",
+                    "src": "137:7:5",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -141,11 +141,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 996,
+                  "id": 1303,
                   "name": "targetBlock",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1001,
-                  "src": "153:19:4",
+                  "scope": 1308,
+                  "src": "153:19:5",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -153,10 +153,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 995,
+                    "id": 1302,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "153:7:4",
+                    "src": "153:7:5",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -166,20 +166,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "120:53:4"
+              "src": "120:53:5"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1000,
+              "id": 1307,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 999,
+                  "id": 1306,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1001,
-                  "src": "189:7:4",
+                  "scope": 1308,
+                  "src": "189:7:5",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -187,10 +187,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 998,
+                    "id": 1305,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "189:7:4",
+                    "src": "189:7:5",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -200,33 +200,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "188:9:4"
+              "src": "188:9:5"
             },
-            "scope": 1002,
-            "src": "103:95:4",
+            "scope": 1309,
+            "src": "103:95:5",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 1003,
-        "src": "66:139:4"
+        "scope": 1310,
+        "src": "66:139:5"
       }
     ],
-    "src": "32:174:4"
+    "src": "32:174:5"
   },
   "legacyAST": {
     "absolutePath": "/D/github/mason/simpleCryptoPet/contracts/GeneScienceInterface.sol",
     "exportedSymbols": {
       "GeneScienceInterface": [
-        1002
+        1309
       ]
     },
-    "id": 1003,
+    "id": 1310,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 990,
+        "id": 1297,
         "literals": [
           "solidity",
           ">=",
@@ -237,7 +237,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:32:4"
+        "src": "32:32:5"
       },
       {
         "baseContracts": [],
@@ -245,9 +245,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 1002,
+        "id": 1309,
         "linearizedBaseContracts": [
-          1002
+          1309
         ],
         "name": "GeneScienceInterface",
         "nodeType": "ContractDefinition",
@@ -255,7 +255,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 1001,
+            "id": 1308,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -263,16 +263,16 @@
             "name": "mixGenes",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 997,
+              "id": 1304,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 992,
+                  "id": 1299,
                   "name": "genes1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1001,
-                  "src": "121:14:4",
+                  "scope": 1308,
+                  "src": "121:14:5",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -280,10 +280,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 991,
+                    "id": 1298,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "121:7:4",
+                    "src": "121:7:5",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -294,11 +294,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 994,
+                  "id": 1301,
                   "name": "genes2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1001,
-                  "src": "137:14:4",
+                  "scope": 1308,
+                  "src": "137:14:5",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -306,10 +306,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 993,
+                    "id": 1300,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "137:7:4",
+                    "src": "137:7:5",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -320,11 +320,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 996,
+                  "id": 1303,
                   "name": "targetBlock",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1001,
-                  "src": "153:19:4",
+                  "scope": 1308,
+                  "src": "153:19:5",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -332,10 +332,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 995,
+                    "id": 1302,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "153:7:4",
+                    "src": "153:7:5",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -345,20 +345,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "120:53:4"
+              "src": "120:53:5"
             },
             "payable": false,
             "returnParameters": {
-              "id": 1000,
+              "id": 1307,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 999,
+                  "id": 1306,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1001,
-                  "src": "189:7:4",
+                  "scope": 1308,
+                  "src": "189:7:5",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -366,10 +366,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 998,
+                    "id": 1305,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "189:7:4",
+                    "src": "189:7:5",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -379,20 +379,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "188:9:4"
+              "src": "188:9:5"
             },
-            "scope": 1002,
-            "src": "103:95:4",
+            "scope": 1309,
+            "src": "103:95:5",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 1003,
-        "src": "66:139:4"
+        "scope": 1310,
+        "src": "66:139:5"
       }
     ],
-    "src": "32:174:4"
+    "src": "32:174:5"
   },
   "compiler": {
     "name": "solc",
@@ -400,7 +400,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.5",
-  "updatedAt": "2020-10-02T16:38:57.678Z",
+  "updatedAt": "2020-10-06T16:41:16.857Z",
   "devdoc": {
     "methods": {}
   },

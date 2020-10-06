@@ -5,6 +5,7 @@ import "./GeneScienceInterface.sol";
 
 contract GeneScience is GeneScienceInterface{
 
+    constructor() public{}
     uint256 private constant maskLast8Bit = uint256(0xff);
     uint256 private constant maskFirst248Bit = uint256(~0xff);
     event Random(uint256 randomN);

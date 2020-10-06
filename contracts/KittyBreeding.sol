@@ -7,11 +7,13 @@ import "./GeneScienceInterface.sol";
 contract KittyBreeding is KittyOwnership{
 
     uint256 public autoBirthFee = 2 finney;
+    uint256 public pregnantKitties;
+
 
     /***Externals***/
     event Pregnant(address owner, uint256 matronId, uint256 sireId, uint256 cooldownEndBlock);
 
-    GeneScienceInterface private geneScience;
+    GeneScienceInterface public geneScience;
 
     function setGeneScienceInterface(address geneScienceContract) external onlyCLevel{
         geneScience = GeneScienceInterface(geneScienceContract);
@@ -51,6 +53,7 @@ contract KittyBreeding is KittyOwnership{
         uint256 childGenes = geneScience.mixGenes(matron.genes, sire.genes, matron.cooldownEndBlock - 1);
         address owner = kittyIndexToOwner[_matronId];
         _createKitty(_matronId, sireId, parentGeneration + 1, childGenes, owner);
+        pregnantKitties--;
         delete matron.sireWithId ;
         msg.sender.transfer(autoBirthFee);//Anyone can give birth and earn fee!!
     }
@@ -69,6 +72,7 @@ contract KittyBreeding is KittyOwnership{
         delete sireAllowedToAddress[_matronId];
         delete sireAllowedToAddress[_sireId];
         
+        pregnantKitties++;
         emit Pregnant(kittyIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
     }
 

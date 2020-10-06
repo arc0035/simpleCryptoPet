@@ -9,7 +9,6 @@ contract KittyOwnership is KittyBase, ERC721 {
     /***ERC-165 ***/
     bytes4 constant InterfaceSignature_ERC165 = bytes4(keccak256('supportsInterface(bytes4)'));
 
-    //1 Looks like this isn't a complete ERC721? Where is safeTransfer?
     bytes4 constant InterfaceSignature_ERC721 = 
         bytes4(keccak256('name()')) ^
         bytes4(keccak256('symbol()')) ^
@@ -51,7 +50,7 @@ contract KittyOwnership is KittyBase, ERC721 {
         require(address(this) != _to); 
 
         require(_owns(msg.sender, _tokenId));
-        kittyIndexToApproved[_tokenId] = _to;
+        _approve(_to, _tokenId);
         emit Approval(msg.sender, _to, _tokenId);
     }
 
@@ -78,5 +77,9 @@ contract KittyOwnership is KittyBase, ERC721 {
 
     function _approvedFor(address _claimant, uint256 _tokenId) internal view returns (bool){
         return kittyIndexToApproved[_tokenId] == _claimant;
+    }
+
+    function _approve(address _approved, uint256 _tokenId) internal {
+        kittyIndexToApproved[_tokenId] = _approved;
     }
 }
